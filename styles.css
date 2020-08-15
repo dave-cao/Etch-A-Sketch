@@ -2,24 +2,50 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Miltonian Tattoo", cursive;
 }
 
 html {
   text-align: center;
+  background-color: white;
+  color: #db5e3b;
+}
+
+#titleName {
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 
 button {
-  margin: 0 0.5rem 0 0.5rem;
+  margin: 2rem 0.5rem 0 0.5rem;
+  padding: 5px 5px 5px 5px;
+  font-size: 2rem;
+  box-shadow: 0 10px 10px grey;
+  cursor: pointer;
+  border: 3px groove #d5a021;
+  outline: none;
+  border-radius: 15px;
+  color: #9c1b1b;
+  background-color: #e0be36;
+}
+button:hover {
+  background-color: #ceb039;
+}
+button:active {
+  background-color: #ceb039;
+  box-shadow: 0 6px 10px silver;
+  transform: translateY(4px);
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
-  height: 80vh;
-  border: 1px solid black;
+  height: 65vh;
+  border: 15px groove #d5a021;
+  margin: 0rem 2rem 0 2rem;
 }
 
 .grid {
-  border: 1px solid black;
+  border: 1px solid #d5a021;
 }
